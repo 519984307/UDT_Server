@@ -213,7 +213,7 @@ private:
    std::map<int64_t, std::set<UDTSOCKET> > m_PeerRec;// record sockets from peers to avoid repeated connection request, int64_t = (socker_id << 30) + isn
 
 private:
-   pthread_key_t m_TLSError;                         // thread local error record (last error)
+   pthread_key_t_udt m_TLSError;                         // thread local error record (last error)
    #ifndef WIN32
       static void TLSDestroy(void* e) {if (NULL != e) delete (CUDTException*)e;}
    #else

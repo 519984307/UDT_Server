@@ -5,3 +5,22 @@ QMAKE_CXX.COMPILER_MACROS = \
     QT_COMPILER_STDCXX \
     QMAKE_MSC_VER \
     QMAKE_MSC_FULL_VER
+QMAKE_CXX.INCDIRS = \
+    E:\\Leventure\\DevTools\\VisualStudio\\VSIDE\\VC\\Tools\\MSVC\\14.29.30133\\include \
+    E:\\Leventure\\DevTools\\VisualStudio\\VSIDE\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include \
+    E:\\Leventure\\DevTools\\VisualStudio\\VSIDE\\VC\\Auxiliary\\VS\\include \
+    "E:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt" \
+    E:\\Leventure\\DevTools\\VisualStudio\\VSIDE\\VC\\Auxiliary\\VS\\UnitTest\\include \
+    "E:\\Windows Kits\\10\\Include\\10.0.19041.0\\um" \
+    "E:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared" \
+    "E:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt" \
+    "E:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt" \
+    Include\\um
+QMAKE_CXX.LIBDIRS = \
+    E:\\Leventure\\DevTools\\VisualStudio\\VSIDE\\VC\\Tools\\MSVC\\14.29.30133\\lib\\x86 \
+    E:\\Leventure\\DevTools\\VisualStudio\\VSIDE\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\lib\\x86 \
+    E:\\Leventure\\DevTools\\VisualStudio\\VSIDE\\VC\\Auxiliary\\VS\\lib\\x86 \
+    "E:\\Windows Kits\\10\\lib\\10.0.19041.0\\ucrt\\x86" \
+    E:\\Leventure\\DevTools\\VisualStudio\\VSIDE\\VC\\Auxiliary\\VS\\UnitTest\\lib \
+    "E:\\Windows Kits\\10\\lib\\10.0.19041.0\\um\\x86" \
+    lib\\um\\x86

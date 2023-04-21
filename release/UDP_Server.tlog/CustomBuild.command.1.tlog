@@ -1,0 +1,2 @@
+^E:\LEVENTURE\WORKSHOP\GITHUB\UDT_SERVER\RELEASE\MOC_PREDEFS.H.CBT
+cl -Bx"E:\Leventure\DevTools\Qt_32\5.14.2\msvc2017\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E E:\Leventure\DevTools\Qt_32\5.14.2\msvc2017\mkspecs\features\data\dummy.cpp 2>NUL >release\moc_predefs.h

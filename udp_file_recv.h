@@ -18,7 +18,6 @@
 #include <QUdpSocket>
 #include <QFile>
 #include <QNetworkDatagram>
-#include "udt_src/udt.h"
 
 #ifndef WIN32
    #include <unistd.h>
@@ -31,6 +30,8 @@
    #include <wspiapi.h>
 #endif
 #include <iostream>
+
+#include "udt_src/udt.h"
 
 using namespace std;
 

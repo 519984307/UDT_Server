@@ -77,7 +77,7 @@ void UDP_FILE_RECV_THREAD::run(QString ip,int port,QString save_path)
            qDebug() << "new connection: " << clienthost << ":" << clientservice << endl;
 
            #ifndef WIN32
-              pthread_t rcvthread;
+              pthread_t_udt rcvthread;
               pthread_create(&rcvthread, NULL, recvdata, new UDTSOCKET(recver));
               pthread_detach(rcvthread);
            #else

@@ -1,4 +1,4 @@
-#include "widget.h"
+﻿#include "widget.h"
 #include "ui_widget.h"
 
 Widget::Widget(QWidget *parent)
@@ -314,31 +314,31 @@ void Widget::Log_Text_Display(QString text)
 void Widget::on_pushButton_start_udp_clicked()
 {
     //启动服务器
-    if(ui->pushButton_start_udp->text()=="启动UDP服务器")
+    if (ui->pushButton_start_udp->text() == QString("启动UDP服务器"))
     {
-        QString ip=ui->comboBox_ip_addr->currentText();
-        qint16 port=ui->spinBox_port->value();
-        if(ip.isEmpty())return;
-        if(port<=0)return;
+        QString ip = ui->comboBox_ip_addr->currentText();
+        qint16 port = ui->spinBox_port->value();
+        if (ip.isEmpty())return;
+        if (port <= 0)return;
 
         //启动线程
         udp_file_recv_thread.start();
         //开始监听UDP服务器
-        emit ss_run_udp_thread(ip,port,ui->lineEdit_recv_file_save_path->text());
+        emit ss_run_udp_thread(ip, port, ui->lineEdit_recv_file_save_path->text());
 
-        ui->pushButton_start_udp->setText("停止UDP服务器");
-        Log_Text_Display("UDP服务器已启动...\n");
+        ui->pushButton_start_udp->setText(QString("停止UDP服务器"));
+        Log_Text_Display("UDP服务器已启动... \n");
 
     }
     //停止服务器
-    else if(ui->pushButton_start_udp->text()=="停止UDP服务器")
+    else if (ui->pushButton_start_udp->text()=="停止UDP服务器")
     {
         //退出线程
         udp_file_recv_class.close_file();
         udp_file_recv_thread.quit();
         udp_file_recv_thread.wait();
 
-        ui->pushButton_start_udp->setText("启动UDP服务器");
+        ui->pushButton_start_udp->setText(QString("启动UDP服务器"));
         Log_Text_Display("UDP服务器已关闭...\n");
     }
 }

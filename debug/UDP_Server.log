@@ -1,0 +1,587 @@
+﻿  Reading Qt configuration (C:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/qmake)
+  Generate moc_predefs.h
+E:\Leventure\DevTools\VisualStudio\VSIDE\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): warning MSB8064: 项“debug\moc_predefs.h.cbt”的自定义生成成功，但指定的依赖项“e:\leventure\workshop\github\udt_server\debug\moc_predefs.h.cbt”不存在。这可能会导致增量生成无法正常工作。
+  Uic'ing widget.ui...
+  Rcc'ing resource\resource.qrc...
+  Moc'ing udp_file_recv.h...
+  Moc'ing widget.h...
+   Warning: Failed to resolve include "H:/Download/??UDP????????????_?????????/UDP_Server/Debug/moc_predefs.h" for moc file E:\Leventure\WorkShop\Github\UDT_Server\udp_file_recv.h
+   Warning: Failed to resolve include "H:/Download/??UDP????????????_?????????/UDP_Server/Debug/moc_predefs.h" for moc file E:\Leventure\WorkShop\Github\UDT_Server\widget.h
+  api.cpp
+  buffer.cpp
+  cache.cpp
+  ccc.cpp
+  channel.cpp
+  common.cpp
+  core.cpp
+  epoll.cpp
+  list.cpp
+  main.cpp
+  md5.cpp
+  packet.cpp
+  queue.cpp
+  udp_file_recv.cpp
+  widget.cpp
+  window.cpp
+E:\Leventure\WorkShop\Github\UDT_Server\widget.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+E:\Leventure\WorkShop\Github\UDT_Server\widget.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 widget.cpp)
+E:\Leventure\WorkShop\Github\UDT_Server\udp_file_recv.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\Leventure\WorkShop\Github\UDT_Server\udp_file_recv.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 udp_file_recv.cpp)
+E:\Leventure\WorkShop\Github\UDT_Server\udt_src\buffer.cpp(188,31): warning C4244: “=”: 从“std::streamsize”转换到“int”，可能丢失数据
+E:\Leventure\WorkShop\Github\UDT_Server\udt_src\epoll.cpp(110,69): warning C4100: “events”: 未引用的形参
+E:\Leventure\WorkShop\Github\UDT_Server\udt_src\core.cpp(771,1): warning C4297: “CUDT::connect”: 假定函数不引发异常，但确实发生了
+E:\Leventure\WorkShop\Github\UDT_Server\udt_src\core.cpp(771,1): message : 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
+E:\Leventure\WorkShop\Github\UDT_Server\udt_src\core.cpp(1661,24): warning C4244: “=”: 从“const double”转换到“volatile uint64_t”，可能丢失数据
+E:\Leventure\WorkShop\Github\UDT_Server\udp_file_recv.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 widget.cpp)
+E:\Leventure\WorkShop\Github\UDT_Server\udp_file_recv.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+E:\Leventure\WorkShop\Github\UDT_Server\widget.cpp(429,56): warning C4100: “arg1”: 未引用的形参
+  qrc_resource.cpp
+  moc_udp_file_recv.cpp
+  moc_widget.cpp
+E:\Leventure\WorkShop\Github\UDT_Server\widget.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Debug\moc_widget.cpp)
+E:\Leventure\WorkShop\Github\UDT_Server\udp_file_recv.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Debug\moc_udp_file_recv.cpp)
+E:\Leventure\WorkShop\Github\UDT_Server\udp_file_recv.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Debug\moc_widget.cpp)
+main.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QWidget::show(void)" (__imp_?show@QWidget@@QAEXXZ)，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QApplication::QApplication(int &,char * *,int)" (__imp_??0QApplication@@QAE@AAHPAPADH@Z)，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QApplication::~QApplication(void)" (__imp_??1QApplication@@UAE@XZ)，函数 _main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static int __cdecl QApplication::exec(void)" (__imp_?exec@QApplication@@SAHXZ)，函数 _main 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QMessageLogger::QMessageLogger(char const *,int,char const *)" (__imp_??0QMessageLogger@@QAE@PBDH0@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QMessageLogger::QMessageLogger(char const *,int,char const *)" (__imp_??0QMessageLogger@@QAE@PBDH0@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QDebug __thiscall QMessageLogger::debug(void)const " (__imp_?debug@QMessageLogger@@QBE?AVQDebug@@XZ)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QDebug __thiscall QMessageLogger::debug(void)const " (__imp_?debug@QMessageLogger@@QBE?AVQDebug@@XZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QReadWriteLock::QReadWriteLock(enum QReadWriteLock::RecursionMode)" (__imp_??0QReadWriteLock@@QAE@W4RecursionMode@0@@Z)，函数 "public: __thiscall StringDataQueue::StringDataQueue(void)" (??0StringDataQueue@@QAE@XZ) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QReadWriteLock::~QReadWriteLock(void)" (__imp_??1QReadWriteLock@@QAE@XZ)，函数 __unwindfunclet$??0StringDataQueue@@QAE@XZ$0 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QReadWriteLock::lockForWrite(void)" (__imp_?lockForWrite@QReadWriteLock@@QAEXXZ)，函数 "public: void __thiscall StringDataQueue::write_queue(class QString)" (?write_queue@StringDataQueue@@QAEXVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QReadWriteLock::lockForWrite(void)" (__imp_?lockForWrite@QReadWriteLock@@QAEXXZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QReadWriteLock::unlock(void)" (__imp_?unlock@QReadWriteLock@@QAEXXZ)，函数 "public: void __thiscall StringDataQueue::write_queue(class QString)" (?write_queue@StringDataQueue@@QAEXVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QReadWriteLock::unlock(void)" (__imp_?unlock@QReadWriteLock@@QAEXXZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QChar::QChar(int)" (__imp_??0QChar@@QAE@H@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QChar::QChar(struct QLatin1Char)" (__imp_??0QChar@@QAE@UQLatin1Char@@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QChar::QChar(struct QLatin1Char)" (__imp_??0QChar@@QAE@UQLatin1Char@@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QByteArray::QByteArray(char const *,int)" (__imp_??0QByteArray@@QAE@PBDH@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QByteArray::~QByteArray(void)" (__imp_??1QByteArray@@QAE@XZ)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QByteArray::~QByteArray(void)" (__imp_??1QByteArray@@QAE@XZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(void)" (__imp_??0QString@@QAE@XZ)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(void)" (__imp_??0QString@@QAE@XZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)，函数 "public: void __thiscall UDP_FILE_RECV_THREAD::WriteLog(class QString)" (?WriteLog@UDP_FILE_RECV_THREAD@@QAEXVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)
+moc_udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)
+moc_widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::~QString(void)" (__imp_??1QString@@QAE@XZ)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::~QString(void)" (__imp_??1QString@@QAE@XZ)
+moc_udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::~QString(void)" (__imp_??1QString@@QAE@XZ)
+moc_widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::~QString(void)" (__imp_??1QString@@QAE@XZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString const &)" (__imp_??4QString@@QAEAAV0@ABV0@@Z)，函数 "public: void __thiscall UDP_FILE_RECV_THREAD::run(class QString,int,class QString)" (?run@UDP_FILE_RECV_THREAD@@QAEXVQString@@H0@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString const &)" (__imp_??4QString@@QAEAAV0@ABV0@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString &&)" (__imp_??0QString@@QAE@$$QAV0@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString &&)" (__imp_??0QString@@QAE@$$QAV0@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString &&)" (__imp_??4QString@@QAEAAV0@$$QAV0@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString &&)" (__imp_??4QString@@QAEAAV0@$$QAV0@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QString::arg(__int64,int,int,class QChar)const " (__imp_?arg@QString@@QBE?AV1@_JHHVQChar@@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QString::arg(__int64,int,int,class QChar)const " (__imp_?arg@QString@@QBE?AV1@_JHHVQChar@@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QString::arg(int,int,int,class QChar)const " (__imp_?arg@QString@@QBE?AV1@HHHVQChar@@@Z)，函数 "public: void __thiscall UDP_FILE_RECV_THREAD::run(class QString,int,class QString)" (?run@UDP_FILE_RECV_THREAD@@QAEXVQString@@H0@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QString::arg(double,int,char,int,class QChar)const " (__imp_?arg@QString@@QBE?AV1@NHDHVQChar@@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QString::arg(double,int,char,int,class QChar)const " (__imp_?arg@QString@@QBE?AV1@NHDHVQChar@@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QString::arg(class QString const &,int,class QChar)const " (__imp_?arg@QString@@QBE?AV1@ABV1@HVQChar@@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QString::arg(class QString const &,int,class QChar)const " (__imp_?arg@QString@@QBE?AV1@ABV1@HVQChar@@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: int __thiscall QString::indexOf(class QString const &,int,enum Qt::CaseSensitivity)const " (__imp_?indexOf@QString@@QBEHABV1@HW4CaseSensitivity@Qt@@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QString::section(class QChar,int,int,class QFlags<enum QString::SectionFlag>)const " (__imp_?section@QString@@QBE?AV1@VQChar@@HHV?$QFlags@W4SectionFlag@QString@@@@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __int64 __thiscall QString::toLongLong(bool *,int)const " (__imp_?toLongLong@QString@@QBE_JPA_NH@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(char const *)" (__imp_??0QString@@QAE@PBD@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(char const *)" (__imp_??0QString@@QAE@PBD@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QByteArray const &)" (__imp_??0QString@@QAE@ABVQByteArray@@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static class QString __cdecl QString::fromStdString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?fromStdString@QString@@SA?AV1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall QString::toStdString(void)const " (__imp_?toStdString@QString@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)，函数 "public: void __thiscall UDP_FILE_RECV_THREAD::run(class QString,int,class QString)" (?run@UDP_FILE_RECV_THREAD@@QAEXVQString@@H0@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: struct QListData::Data * __thiscall QListData::detach_grow(int *,int)" (__imp_?detach_grow@QListData@@QAEPAUData@1@PAHH@Z)，函数 "private: struct QList<class QString>::Node * __thiscall QList<class QString>::detach_helper_grow(int,int)" (?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QListData::dispose(void)" (__imp_?dispose@QListData@@QAEXXZ)，函数 __catch$?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z$0 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QListData::dispose(void)" (__imp_?dispose@QListData@@QAEXXZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static void __cdecl QListData::dispose(struct QListData::Data *)" (__imp_?dispose@QListData@@SAXPAUData@1@@Z)，函数 "private: void __thiscall QList<class QString>::dealloc(struct QListData::Data *)" (?dealloc@?$QList@VQString@@@@AAEXPAUData@QListData@@@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: static void __cdecl QListData::dispose(struct QListData::Data *)" (__imp_?dispose@QListData@@SAXPAUData@1@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void * * __thiscall QListData::append(void)" (__imp_?append@QListData@@QAEPAPAXXZ)，函数 __catch$?append@?$QList@VQString@@@@QAEXABVQString@@@Z$0 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: int __thiscall QListData::size(void)const " (__imp_?size@QListData@@QBEHXZ)，函数 "public: int __thiscall QList<class QString>::size(void)const " (?size@?$QList@VQString@@@@QBEHXZ) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: int __thiscall QListData::size(void)const " (__imp_?size@QListData@@QBEHXZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void * * __thiscall QListData::begin(void)const " (__imp_?begin@QListData@@QBEPAPAXXZ)，函数 "private: struct QList<class QString>::Node * __thiscall QList<class QString>::detach_helper_grow(int,int)" (?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: void * * __thiscall QListData::begin(void)const " (__imp_?begin@QListData@@QBEPAPAXXZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void * * __thiscall QListData::end(void)const " (__imp_?end@QListData@@QBEPAPAXXZ)，函数 __catch$?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z$0 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: void * * __thiscall QListData::end(void)const " (__imp_?end@QListData@@QBEPAPAXXZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QObject::QObject(class QObject *)" (__imp_??0QObject@@QAE@PAV0@@Z)，函数 "public: __thiscall UDP_FILE_RECV_THREAD::UDP_FILE_RECV_THREAD(void)" (??0UDP_FILE_RECV_THREAD@@QAE@XZ) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QObject::~QObject(void)" (__imp_??1QObject@@UAE@XZ)，函数 "public: virtual __thiscall UDP_FILE_RECV_THREAD::~UDP_FILE_RECV_THREAD(void)" (??1UDP_FILE_RECV_THREAD@@UAE@XZ) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __int64 __thiscall QIODevice::write(char const *,__int64)" (__imp_?write@QIODevice@@QAE_JPBD_J@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::write(char const *,__int64)" (__imp_?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@PBD_J@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QFile::QFile(class QString const &)" (__imp_??0QFile@@QAE@ABVQString@@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QFile::QFile(class QString const &)" (__imp_??0QFile@@QAE@ABVQString@@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QFile::~QFile(void)" (__imp_??1QFile@@UAE@XZ)，函数 "public: virtual void * __thiscall QFile::`scalar deleting destructor'(unsigned int)" (??_GQFile@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QFile::~QFile(void)" (__imp_??1QFile@@UAE@XZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) class QTextStream & __cdecl QTextStreamFunctions::endl(class QTextStream &)" (__imp_?endl@QTextStreamFunctions@@YAAAVQTextStream@@AAV2@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QDebug::~QDebug(void)" (__imp_??1QDebug@@QAE@XZ)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QDebug::~QDebug(void)" (__imp_??1QDebug@@QAE@XZ)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QDebug & __thiscall QDebug::operator<<(int)" (__imp_??6QDebug@@QAEAAV0@H@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QDebug & __thiscall QDebug::operator<<(char const *)" (__imp_??6QDebug@@QAEAAV0@PBD@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QDebug & __thiscall QDebug::operator<<(char const *)" (__imp_??6QDebug@@QAEAAV0@PBD@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QDebug & __thiscall QDebug::operator<<(class QString const &)" (__imp_??6QDebug@@QAEAAV0@ABVQString@@@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QDebug & __thiscall QDebug::operator<<(class QString const &)" (__imp_??6QDebug@@QAEAAV0@ABVQString@@@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QDebug & __thiscall QDebug::operator<<(class QTextStream & (__cdecl*)(class QTextStream &))" (__imp_??6QDebug@@QAEAAV0@P6AAAVQTextStream@@AAV1@@Z@Z)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static __int64 __cdecl QDateTime::currentMSecsSinceEpoch(void)" (__imp_?currentMSecsSinceEpoch@QDateTime@@SA_JXZ)，函数 "unsigned long __stdcall recvdata(void *)" (?recvdata@@YGKPAX@Z) 中引用了该符号
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFileDevice::atEnd(void)const " (?atEnd@QFileDevice@@UBE_NXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFileDevice::atEnd(void)const " (?atEnd@QFileDevice@@UBE_NXZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __thiscall QIODevice::bytesAvailable(void)const " (?bytesAvailable@QIODevice@@UBE_JXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __thiscall QIODevice::bytesAvailable(void)const " (?bytesAvailable@QIODevice@@UBE_JXZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __thiscall QIODevice::bytesToWrite(void)const " (?bytesToWrite@QIODevice@@UBE_JXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __thiscall QIODevice::bytesToWrite(void)const " (?bytesToWrite@QIODevice@@UBE_JXZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QIODevice::canReadLine(void)const " (?canReadLine@QIODevice@@UBE_NXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QIODevice::canReadLine(void)const " (?canReadLine@QIODevice@@UBE_NXZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QObject::childEvent(class QChildEvent *)" (?childEvent@QObject@@MAEXPAVQChildEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QObject::childEvent(class QChildEvent *)" (?childEvent@QObject@@MAEXPAVQChildEvent@@@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QFileDevice::close(void)" (?close@QFileDevice@@UAEXXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QFileDevice::close(void)" (?close@QFileDevice@@UAEXXZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QObject::connectNotify(class QMetaMethod const &)" (?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QObject::connectNotify(class QMetaMethod const &)" (?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QObject::customEvent(class QEvent *)" (?customEvent@QObject@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QObject::customEvent(class QEvent *)" (?customEvent@QObject@@MAEXPAVQEvent@@@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QObject::disconnectNotify(class QMetaMethod const &)" (?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QObject::disconnectNotify(class QMetaMethod const &)" (?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QObject::event(class QEvent *)" (?event@QObject@@UAE_NPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QObject::event(class QEvent *)" (?event@QObject@@UAE_NPAVQEvent@@@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QObject::eventFilter(class QObject *,class QEvent *)" (?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QObject::eventFilter(class QObject *,class QEvent *)" (?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QString __thiscall QFile::fileName(void)const " (?fileName@QFile@@UBE?AVQString@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QString __thiscall QFile::fileName(void)const " (?fileName@QFile@@UBE?AVQString@@XZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFileDevice::isSequential(void)const " (?isSequential@QFileDevice@@UBE_NXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFileDevice::isSequential(void)const " (?isSequential@QFileDevice@@UBE_NXZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QFile::metaObject(void)const " (?metaObject@QFile@@UBEPBUQMetaObject@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QFile::metaObject(void)const " (?metaObject@QFile@@UBEPBUQMetaObject@@XZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFile::open(class QFlags<enum QIODevice::OpenModeFlag>)" (?open@QFile@@UAE_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFile::open(class QFlags<enum QIODevice::OpenModeFlag>)" (?open@QFile@@UAE_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QFlags<enum QFileDevice::Permission> __thiscall QFile::permissions(void)const " (?permissions@QFile@@UBE?AV?$QFlags@W4Permission@QFileDevice@@@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QFlags<enum QFileDevice::Permission> __thiscall QFile::permissions(void)const " (?permissions@QFile@@UBE?AV?$QFlags@W4Permission@QFileDevice@@@@XZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __thiscall QFileDevice::pos(void)const " (?pos@QFileDevice@@UBE_JXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __thiscall QFileDevice::pos(void)const " (?pos@QFileDevice@@UBE_JXZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QFile::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QFile@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QFile::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QFile@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QFile::qt_metacast(char const *)" (?qt_metacast@QFile@@UAEPAXPBD@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QFile::qt_metacast(char const *)" (?qt_metacast@QFile@@UAEPAXPBD@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __thiscall QFileDevice::readData(char *,__int64)" (?readData@QFileDevice@@MAE_JPAD_J@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __thiscall QFileDevice::readData(char *,__int64)" (?readData@QFileDevice@@MAE_JPAD_J@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __thiscall QFileDevice::readLineData(char *,__int64)" (?readLineData@QFileDevice@@MAE_JPAD_J@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __thiscall QFileDevice::readLineData(char *,__int64)" (?readLineData@QFileDevice@@MAE_JPAD_J@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QIODevice::reset(void)" (?reset@QIODevice@@UAE_NXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QIODevice::reset(void)" (?reset@QIODevice@@UAE_NXZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFile::resize(__int64)" (?resize@QFile@@UAE_N_J@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFile::resize(__int64)" (?resize@QFile@@UAE_N_J@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFileDevice::seek(__int64)" (?seek@QFileDevice@@UAE_N_J@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFileDevice::seek(__int64)" (?seek@QFileDevice@@UAE_N_J@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFile::setPermissions(class QFlags<enum QFileDevice::Permission>)" (?setPermissions@QFile@@UAE_NV?$QFlags@W4Permission@QFileDevice@@@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QFile::setPermissions(class QFlags<enum QFileDevice::Permission>)" (?setPermissions@QFile@@UAE_NV?$QFlags@W4Permission@QFileDevice@@@@@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __thiscall QFile::size(void)const " (?size@QFile@@UBE_JXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __thiscall QFile::size(void)const " (?size@QFile@@UBE_JXZ)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QObject::timerEvent(class QTimerEvent *)" (?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QObject::timerEvent(class QTimerEvent *)" (?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QIODevice::waitForBytesWritten(int)" (?waitForBytesWritten@QIODevice@@UAE_NH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QIODevice::waitForBytesWritten(int)" (?waitForBytesWritten@QIODevice@@UAE_NH@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QIODevice::waitForReadyRead(int)" (?waitForReadyRead@QIODevice@@UAE_NH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QIODevice::waitForReadyRead(int)" (?waitForReadyRead@QIODevice@@UAE_NH@Z)
+udp_file_recv.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __thiscall QFileDevice::writeData(char const *,__int64)" (?writeData@QFileDevice@@MAE_JPBD_J@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __thiscall QFileDevice::writeData(char const *,__int64)" (?writeData@QFileDevice@@MAE_JPBD_J@Z)
+udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static struct QListData::Data const QListData::shared_null" (__imp_?shared_null@QListData@@2UData@1@B)，函数 "public: __thiscall QList<class QString>::QList<class QString>(class QList<class QString> &&)" (??0?$QList@VQString@@@@QAE@$$QAV0@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) void __cdecl qt_assert(char const *,char const *,int)" (__imp_?qt_assert@@YAXPBD0H@Z)，函数 "public: class QString & __thiscall QList<class QString>::first(void)" (?first@?$QList@VQString@@@@QAEAAVQString@@XZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) void __cdecl qt_assert_x(char const *,char const *,char const *,int)" (__imp_?qt_assert_x@@YAXPBD00H@Z)，函数 "public: class QHostAddress const & __thiscall QList<class QHostAddress>::at(int)const " (?at@?$QList@VQHostAddress@@@@QBEABVQHostAddress@@H@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) char const * __cdecl qFlagLocation(char const *)" (__imp_?qFlagLocation@@YAPBDPBD@Z)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QMetaObject::tr(char const *,char const *,int)const " (__imp_?tr@QMetaObject@@QBE?AVQString@@PBD0H@Z)，函数 "public: static class QString __cdecl Widget::tr(char const *,char const *,int)" (?tr@Widget@@SA?AVQString@@PBD0H@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static void __cdecl QMetaObject::connectSlotsByName(class QObject *)" (__imp_?connectSlotsByName@QMetaObject@@SAXPAVQObject@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QMetaObject::Connection::~Connection(void)" (__imp_??1Connection@QMetaObject@@QAE@XZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: int __thiscall QByteArray::size(void)const " (__imp_?size@QByteArray@@QBEHXZ)，函数 "public: __thiscall QLatin1String::QLatin1String(class QByteArray const &)" (??0QLatin1String@@QAE@ABVQByteArray@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: char const * __thiscall QByteArray::constData(void)const " (__imp_?constData@QByteArray@@QBEPBDXZ)，函数 "public: __thiscall QLatin1String::QLatin1String(class QByteArray const &)" (??0QLatin1String@@QAE@ABVQByteArray@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QLatin1String)" (__imp_??0QString@@QAE@VQLatin1String@@@Z)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __thiscall QString::isEmpty(void)const " (__imp_?isEmpty@QString@@QBE_NXZ)，函数 "public: void __thiscall Widget::del_dir_all_file(void)" (?del_dir_all_file@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QString::mid(int,int)const " (__imp_?mid@QString@@QBE?AV1@HH@Z)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator+=(class QString const &)" (__imp_??YQString@@QAEAAV0@ABV0@@Z)，函数 "private: void __thiscall Widget::current_timer_update(void)" (?current_timer_update@Widget@@AAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static class QString __cdecl QString::fromUtf8(char const *,int)" (__imp_?fromUtf8@QString@@SA?AV1@PBDH@Z)，函数 "class QString const __cdecl operator+(class QString const &,char const *)" (??H@YA?BVQString@@ABV0@PBD@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) bool __cdecl operator==(class QString const &,class QString const &)" (__imp_??8@YA_NABVQString@@0@Z)，函数 "private: void __thiscall Widget::on_pushButton_start_udp_clicked(void)" (?on_pushButton_start_udp_clicked@Widget@@AAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator+=(char const *)" (__imp_??YQString@@QAEAAV0@PBD@Z)，函数 "public: void __thiscall Widget::slots_RecvComplete(double)" (?slots_RecvComplete@Widget@@QAEXN@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __thiscall QString::operator==(char const *)const " (__imp_??8QString@@QBE_NPBD@Z)，函数 "private: void __thiscall Widget::on_pushButton_start_udp_clicked(void)" (?on_pushButton_start_udp_clicked@Widget@@AAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) class QDataStream & __cdecl operator<<(class QDataStream &,class QString const &)" (__imp_??6@YAAAVQDataStream@@AAV0@ABVQString@@@Z)，函数 "public: void __thiscall Widget::Save_Config(void)" (?Save_Config@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) class QDataStream & __cdecl operator>>(class QDataStream &,class QString &)" (__imp_??5@YAAAVQDataStream@@AAV0@AAVQString@@@Z)，函数 "public: void __thiscall Widget::Load_Config(void)" (?Load_Config@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: struct QListData::Data * __thiscall QListData::detach(int)" (__imp_?detach@QListData@@QAEPAUData@1@H@Z)，函数 "public: __thiscall QList<class QFileInfo>::QList<class QFileInfo>(class QList<class QFileInfo> const &)" (??0?$QList@VQFileInfo@@@@QAE@ABV0@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void * * __thiscall QListData::erase(void * *)" (__imp_?erase@QListData@@QAEPAPAXPAPAX@Z)，函数 "public: class QList<class QString>::iterator __thiscall QList<class QString>::erase(class QList<class QString>::iterator)" (?erase@?$QList@VQString@@@@QAE?AViterator@1@V21@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __thiscall QListData::isEmpty(void)const " (__imp_?isEmpty@QListData@@QBE_NXZ)，函数 "public: bool __thiscall QList<class QString>::isEmpty(void)const " (?isEmpty@?$QList@VQString@@@@QBE_NXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void * * __thiscall QListData::at(int)const " (__imp_?at@QListData@@QBEPAPAXH@Z)，函数 "public: class QHostAddress const & __thiscall QList<class QHostAddress>::at(int)const " (?at@?$QList@VQHostAddress@@@@QBEABVQHostAddress@@H@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QObject::objectName(void)const " (__imp_?objectName@QObject@@QBE?AVQString@@XZ)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QObject::setObjectName(class QString const &)" (__imp_?setObjectName@QObject@@QAEXABVQString@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QObject::moveToThread(class QThread *)" (__imp_?moveToThread@QObject@@QAEXPAVQThread@@@Z)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static class QMetaObject::Connection __cdecl QObject::connect(class QObject const *,char const *,class QObject const *,char const *,enum Qt::ConnectionType)" (__imp_?connect@QObject@@SA?AVConnection@QMetaObject@@PBV1@PBD01W4ConnectionType@Qt@@@Z)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QColor::QColor(class QString const &)" (__imp_??0QColor@@QAE@ABVQString@@@Z)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QByteArray __thiscall QIODevice::readAll(void)" (__imp_?readAll@QIODevice@@QAE?AVQByteArray@@XZ)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QDataStream::QDataStream(class QIODevice *)" (__imp_??0QDataStream@@QAE@PAVQIODevice@@@Z)，函数 "public: void __thiscall Widget::Load_Config(void)" (?Load_Config@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QDataStream::~QDataStream(void)" (__imp_??1QDataStream@@QAE@XZ)，函数 "public: void __thiscall Widget::Load_Config(void)" (?Load_Config@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QDataStream & __thiscall QDataStream::operator>>(int &)" (__imp_??5QDataStream@@QAEAAV0@AAH@Z)，函数 "public: void __thiscall Widget::Load_Config(void)" (?Load_Config@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QDataStream & __thiscall QDataStream::operator<<(int)" (__imp_??6QDataStream@@QAEAAV0@H@Z)，函数 "public: void __thiscall Widget::Save_Config(void)" (?Save_Config@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QPalette::QPalette(class QColor const &)" (__imp_??0QPalette@@QAE@ABVQColor@@@Z)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QPalette::~QPalette(void)" (__imp_??1QPalette@@QAE@XZ)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QWidget::QWidget(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QWidget@@QAE@PAV0@V?$QFlags@W4WindowType@Qt@@@@@Z)，函数 "public: __thiscall Widget::Widget(class QWidget *)" (??0Widget@@QAE@PAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QWidget::~QWidget(void)" (__imp_??1QWidget@@UAE@XZ)，函数 "public: virtual __thiscall Widget::~Widget(void)" (??1Widget@@UAE@XZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QWidget::setEnabled(bool)" (__imp_?setEnabled@QWidget@@QAEX_N@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QWidget::setWindowTitle(class QString const &)" (__imp_?setWindowTitle@QWidget@@QAEXABVQString@@@Z)，函数 "public: __thiscall Widget::Widget(class QWidget *)" (??0Widget@@QAE@PAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QWidget::resize(int,int)" (__imp_?resize@QWidget@@QAEXHH@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual void __thiscall QFileDevice::close(void)" (__imp_?close@QFileDevice@@UAEXXZ)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __thiscall QFileDevice::flush(void)" (__imp_?flush@QFileDevice@@QAE_NXZ)，函数 "public: void __thiscall Widget::Save_Config(void)" (?Save_Config@Widget@@QAEXXZ) 中引用了该符号
+    已定义且可能匹配的符号上的提示:
+      "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (__imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ)
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QFile::QFile(void)" (__imp_??0QFile@@QAE@XZ)，函数 "public: void __thiscall Widget::CreateLogFile(void)" (?CreateLogFile@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QFile::setFileName(class QString const &)" (__imp_?setFileName@QFile@@QAEXABVQString@@@Z)，函数 "public: void __thiscall Widget::CreateLogFile(void)" (?CreateLogFile@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static bool __cdecl QFile::exists(class QString const &)" (__imp_?exists@QFile@@SA_NABVQString@@@Z)，函数 "public: void __thiscall Widget::Load_Config(void)" (?Load_Config@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual bool __thiscall QFile::open(class QFlags<enum QIODevice::OpenModeFlag>)" (__imp_?open@QFile@@UAE_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QFileInfo::QFileInfo(class QString const &)" (__imp_??0QFileInfo@@QAE@ABVQString@@@Z)，函数 "public: void __thiscall Widget::del_dir_all_file(void)" (?del_dir_all_file@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QFileInfo::QFileInfo(class QFileInfo const &)" (__imp_??0QFileInfo@@QAE@ABV0@@Z)，函数 "public: void __thiscall Widget::del_dir_all_file(void)" (?del_dir_all_file@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QFileInfo::~QFileInfo(void)" (__imp_??1QFileInfo@@QAE@XZ)，函数 "public: void __thiscall Widget::del_dir_all_file(void)" (?del_dir_all_file@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QFileInfo::fileName(void)const " (__imp_?fileName@QFileInfo@@QBE?AVQString@@XZ)，函数 "public: void __thiscall Widget::del_dir_all_file(void)" (?del_dir_all_file@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QDir __thiscall QFileInfo::dir(void)const " (__imp_?dir@QFileInfo@@QBE?AVQDir@@XZ)，函数 "public: void __thiscall Widget::del_dir_all_file(void)" (?del_dir_all_file@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __thiscall QFileInfo::isFile(void)const " (__imp_?isFile@QFileInfo@@QBE_NXZ)，函数 "public: void __thiscall Widget::del_dir_all_file(void)" (?del_dir_all_file@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QDir::QDir(class QString const &)" (__imp_??0QDir@@QAE@ABVQString@@@Z)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QDir::~QDir(void)" (__imp_??1QDir@@QAE@XZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QDir::setFilter(class QFlags<enum QDir::Filter>)" (__imp_?setFilter@QDir@@QAEXV?$QFlags@W4Filter@QDir@@@@@Z)，函数 "public: void __thiscall Widget::del_dir_all_file(void)" (?del_dir_all_file@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QList<class QFileInfo> __thiscall QDir::entryInfoList(class QFlags<enum QDir::Filter>,class QFlags<enum QDir::SortFlag>)const " (__imp_?entryInfoList@QDir@@QBE?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z)，函数 "public: void __thiscall Widget::del_dir_all_file(void)" (?del_dir_all_file@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __thiscall QDir::mkdir(class QString const &)const " (__imp_?mkdir@QDir@@QBE_NABVQString@@@Z)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __thiscall QDir::exists(void)const " (__imp_?exists@QDir@@QBE_NXZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __thiscall QDir::remove(class QString const &)" (__imp_?remove@QDir@@QAE_NABVQString@@@Z)，函数 "public: void __thiscall Widget::del_dir_all_file(void)" (?del_dir_all_file@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QVariant::QVariant(void)" (__imp_??0QVariant@@QAE@XZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QVariant::~QVariant(void)" (__imp_??1QVariant@@QAE@XZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QTextStream::QTextStream(class QIODevice *)" (__imp_??0QTextStream@@QAE@PAVQIODevice@@@Z)，函数 "public: void __thiscall Widget::CreateLogFile(void)" (?CreateLogFile@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QTextStream::~QTextStream(void)" (__imp_??1QTextStream@@UAE@XZ)，函数 "public: virtual void * __thiscall QTextStream::`scalar deleting destructor'(unsigned int)" (??_GQTextStream@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QTextStream & __thiscall QTextStream::operator<<(class QString const &)" (__imp_??6QTextStream@@QAEAAV0@ABVQString@@@Z)，函数 "protected: virtual void __thiscall Widget::closeEvent(class QCloseEvent *)" (?closeEvent@Widget@@MAEXPAVQCloseEvent@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static class QString __cdecl QFileDialog::getExistingDirectory(class QWidget *,class QString const &,class QString const &,class QFlags<enum QFileDialog::Option>)" (__imp_?getExistingDirectory@QFileDialog@@SA?AVQString@@PAVQWidget@@ABV2@1V?$QFlags@W4Option@QFileDialog@@@@@Z)，函数 "private: void __thiscall Widget::on_pushButton_select_log_file_path_clicked(void)" (?on_pushButton_select_log_file_path_clicked@Widget@@AAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QHostAddress::QHostAddress(class QHostAddress const &)" (__imp_??0QHostAddress@@QAE@ABV0@@Z)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QHostAddress::~QHostAddress(void)" (__imp_??1QHostAddress@@QAE@XZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: enum QAbstractSocket::NetworkLayerProtocol __thiscall QHostAddress::protocol(void)const " (__imp_?protocol@QHostAddress@@QBE?AW4NetworkLayerProtocol@QAbstractSocket@@XZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QHostAddress::toString(void)const " (__imp_?toString@QHostAddress@@QBE?AVQString@@XZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static class QList<class QHostAddress> __cdecl QNetworkInterface::allAddresses(void)" (__imp_?allAddresses@QNetworkInterface@@SA?AV?$QList@VQHostAddress@@@@XZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: int __thiscall QAbstractSlider::maximum(void)const " (__imp_?maximum@QAbstractSlider@@QBEHXZ)，函数 "public: void __thiscall Widget::Log_Text_Display(class QString)" (?Log_Text_Display@Widget@@QAEXVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QAbstractSlider::setSliderPosition(int)" (__imp_?setSliderPosition@QAbstractSlider@@QAEXH@Z)，函数 "public: void __thiscall Widget::Log_Text_Display(class QString)" (?Log_Text_Display@Widget@@QAEXVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QTimer::QTimer(class QObject *)" (__imp_??0QTimer@@QAE@PAVQObject@@@Z)，函数 "public: __thiscall Widget::Widget(class QWidget *)" (??0Widget@@QAE@PAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QTimer::~QTimer(void)" (__imp_??1QTimer@@UAE@XZ)，函数 "public: virtual __thiscall Widget::~Widget(void)" (??1Widget@@UAE@XZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QTimer::start(int)" (__imp_?start@QTimer@@QAEXH@Z)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QTimer::stop(void)" (__imp_?stop@QTimer@@QAEXXZ)，函数 "protected: virtual void __thiscall Widget::closeEvent(class QCloseEvent *)" (?closeEvent@Widget@@MAEXPAVQCloseEvent@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QDateTime::~QDateTime(void)" (__imp_??1QDateTime@@QAE@XZ)，函数 "public: void __thiscall Widget::CreateLogFile(void)" (?CreateLogFile@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QDateTime::toString(class QString const &)const " (__imp_?toString@QDateTime@@QBE?AVQString@@ABV2@@Z)，函数 "public: void __thiscall Widget::CreateLogFile(void)" (?CreateLogFile@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static class QDateTime __cdecl QDateTime::currentDateTime(void)" (__imp_?currentDateTime@QDateTime@@SA?AV1@XZ)，函数 "public: void __thiscall Widget::CreateLogFile(void)" (?CreateLogFile@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QThread::QThread(class QObject *)" (__imp_??0QThread@@QAE@PAVQObject@@@Z)，函数 "public: __thiscall Widget::Widget(class QWidget *)" (??0Widget@@QAE@PAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QThread::~QThread(void)" (__imp_??1QThread@@UAE@XZ)，函数 "public: virtual __thiscall Widget::~Widget(void)" (??1Widget@@UAE@XZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QThread::start(enum QThread::Priority)" (__imp_?start@QThread@@QAEXW4Priority@1@@Z)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QThread::quit(void)" (__imp_?quit@QThread@@QAEXXZ)，函数 "protected: virtual void __thiscall Widget::closeEvent(class QCloseEvent *)" (?closeEvent@Widget@@MAEXPAVQCloseEvent@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: bool __thiscall QThread::wait(unsigned long)" (__imp_?wait@QThread@@QAE_NK@Z)，函数 "protected: virtual void __thiscall Widget::closeEvent(class QCloseEvent *)" (?closeEvent@Widget@@MAEXPAVQCloseEvent@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static enum QMessageBox::StandardButton __cdecl QMessageBox::question(class QWidget *,class QString const &,class QString const &,class QFlags<enum QMessageBox::StandardButton>,enum QMessageBox::StandardButton)" (__imp_?question@QMessageBox@@SA?AW4StandardButton@1@PAVQWidget@@ABVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z)，函数 "private: void __thiscall Widget::on_pushButton_del_all_clicked(void)" (?on_pushButton_del_all_clicked@Widget@@AAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QEvent::accept(void)" (__imp_?accept@QEvent@@QAEXXZ)，函数 "protected: virtual void __thiscall Widget::closeEvent(class QCloseEvent *)" (?closeEvent@Widget@@MAEXPAVQCloseEvent@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static class QCoreApplication * __cdecl QCoreApplication::instance(void)" (__imp_?instance@QCoreApplication@@SAPAV1@XZ)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static class QString __cdecl QCoreApplication::applicationDirPath(void)" (__imp_?applicationDirPath@QCoreApplication@@SA?AVQString@@XZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static class QString __cdecl QCoreApplication::translate(char const *,char const *,char const *,int)" (__imp_?translate@QCoreApplication@@SA?AVQString@@PBD00H@Z)，函数 "public: void __thiscall Ui_Widget::retranslateUi(class QWidget *)" (?retranslateUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static void __cdecl QApplication::setPalette(class QPalette const &,char const *)" (__imp_?setPalette@QApplication@@SAXABVQPalette@@PBD@Z)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QApplication::setStyleSheet(class QString const &)" (__imp_?setStyleSheet@QApplication@@QAEXABVQString@@@Z)，函数 "public: void __thiscall Widget::SetStyle(class QString const &)" (?SetStyle@Widget@@QAEXABVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QComboBox::QComboBox(class QWidget *)" (__imp_??0QComboBox@@QAE@PAVQWidget@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QComboBox::~QComboBox(void)" (__imp_??1QComboBox@@UAE@XZ)，函数 "public: virtual void * __thiscall QComboBox::`scalar deleting destructor'(unsigned int)" (??_GQComboBox@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QComboBox::setEditable(bool)" (__imp_?setEditable@QComboBox@@QAEX_N@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QComboBox::currentText(void)const " (__imp_?currentText@QComboBox@@QBE?AVQString@@XZ)，函数 "private: void __thiscall Widget::on_pushButton_start_udp_clicked(void)" (?on_pushButton_start_udp_clicked@Widget@@AAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QComboBox::addItem(class QString const &,class QVariant const &)" (__imp_?addItem@QComboBox@@QAEXABVQString@@ABVQVariant@@@Z)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QComboBox::setItemText(int,class QString const &)" (__imp_?setItemText@QComboBox@@QAEXHABVQString@@@Z)，函数 "public: void __thiscall Ui_Widget::retranslateUi(class QWidget *)" (?retranslateUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QComboBox::clear(void)" (__imp_?clear@QComboBox@@QAEXXZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QGroupBox::QGroupBox(class QWidget *)" (__imp_??0QGroupBox@@QAE@PAVQWidget@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QGroupBox::~QGroupBox(void)" (__imp_??1QGroupBox@@UAE@XZ)，函数 "public: virtual void * __thiscall QGroupBox::`scalar deleting destructor'(unsigned int)" (??_GQGroupBox@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QGroupBox::setTitle(class QString const &)" (__imp_?setTitle@QGroupBox@@QAEXABVQString@@@Z)，函数 "public: void __thiscall Ui_Widget::retranslateUi(class QWidget *)" (?retranslateUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QSpacerItem::QSpacerItem(int,int,enum QSizePolicy::Policy,enum QSizePolicy::Policy)" (__imp_??0QSpacerItem@@QAE@HHW4Policy@QSizePolicy@@0@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QSpacerItem::~QSpacerItem(void)" (__imp_??1QSpacerItem@@UAE@XZ)，函数 "public: virtual void * __thiscall QSpacerItem::`scalar deleting destructor'(unsigned int)" (??_GQSpacerItem@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QBoxLayout::addWidget(class QWidget *,int,class QFlags<enum Qt::AlignmentFlag>)" (__imp_?addWidget@QBoxLayout@@QAEXPAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QBoxLayout::addLayout(class QLayout *,int)" (__imp_?addLayout@QBoxLayout@@QAEXPAVQLayout@@H@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QHBoxLayout::QHBoxLayout(void)" (__imp_??0QHBoxLayout@@QAE@XZ)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QHBoxLayout::~QHBoxLayout(void)" (__imp_??1QHBoxLayout@@UAE@XZ)，函数 "public: virtual void * __thiscall QHBoxLayout::`scalar deleting destructor'(unsigned int)" (??_GQHBoxLayout@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QVBoxLayout::QVBoxLayout(class QWidget *)" (__imp_??0QVBoxLayout@@QAE@PAVQWidget@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QVBoxLayout::~QVBoxLayout(void)" (__imp_??1QVBoxLayout@@UAE@XZ)，函数 "public: virtual void * __thiscall QVBoxLayout::`scalar deleting destructor'(unsigned int)" (??_GQVBoxLayout@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QLabel::QLabel(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QLabel@@QAE@PAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QLabel::~QLabel(void)" (__imp_??1QLabel@@UAE@XZ)，函数 "public: virtual void * __thiscall QLabel::`scalar deleting destructor'(unsigned int)" (??_GQLabel@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QLabel::setText(class QString const &)" (__imp_?setText@QLabel@@QAEXABVQString@@@Z)，函数 "private: void __thiscall Widget::current_timer_update(void)" (?current_timer_update@Widget@@AAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QLineEdit::QLineEdit(class QWidget *)" (__imp_??0QLineEdit@@QAE@PAVQWidget@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QLineEdit::~QLineEdit(void)" (__imp_??1QLineEdit@@UAE@XZ)，函数 "public: virtual void * __thiscall QLineEdit::`scalar deleting destructor'(unsigned int)" (??_GQLineEdit@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QLineEdit::text(void)const " (__imp_?text@QLineEdit@@QBE?AVQString@@XZ)，函数 "public: void __thiscall Widget::Save_Config(void)" (?Save_Config@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QLineEdit::setText(class QString const &)" (__imp_?setText@QLineEdit@@QAEXABVQString@@@Z)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QScrollBar * __thiscall QAbstractScrollArea::verticalScrollBar(void)const " (__imp_?verticalScrollBar@QAbstractScrollArea@@QBEPAVQScrollBar@@XZ)，函数 "public: void __thiscall Widget::Log_Text_Display(class QString)" (?Log_Text_Display@Widget@@QAEXVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QPlainTextEdit::QPlainTextEdit(class QWidget *)" (__imp_??0QPlainTextEdit@@QAE@PAVQWidget@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QPlainTextEdit::~QPlainTextEdit(void)" (__imp_??1QPlainTextEdit@@UAE@XZ)，函数 "public: virtual void * __thiscall QPlainTextEdit::`scalar deleting destructor'(unsigned int)" (??_GQPlainTextEdit@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QPlainTextEdit::setReadOnly(bool)" (__imp_?setReadOnly@QPlainTextEdit@@QAEX_N@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QPlainTextEdit::setDocumentTitle(class QString const &)" (__imp_?setDocumentTitle@QPlainTextEdit@@QAEXABVQString@@@Z)，函数 "public: void __thiscall Ui_Widget::retranslateUi(class QWidget *)" (?retranslateUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QPlainTextEdit::toPlainText(void)const " (__imp_?toPlainText@QPlainTextEdit@@QBE?AVQString@@XZ)，函数 "protected: virtual void __thiscall Widget::closeEvent(class QCloseEvent *)" (?closeEvent@Widget@@MAEXPAVQCloseEvent@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QPlainTextEdit::moveCursor(enum QTextCursor::MoveOperation,enum QTextCursor::MoveMode)" (__imp_?moveCursor@QPlainTextEdit@@QAEXW4MoveOperation@QTextCursor@@W4MoveMode@3@@Z)，函数 "public: void __thiscall Widget::Log_Text_Display(class QString)" (?Log_Text_Display@Widget@@QAEXVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QPlainTextEdit::clear(void)" (__imp_?clear@QPlainTextEdit@@QAEXXZ)，函数 "private: void __thiscall Widget::log_save_timer_update(void)" (?log_save_timer_update@Widget@@AAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QPlainTextEdit::insertPlainText(class QString const &)" (__imp_?insertPlainText@QPlainTextEdit@@QAEXABVQString@@@Z)，函数 "public: void __thiscall Widget::Log_Text_Display(class QString)" (?Log_Text_Display@Widget@@QAEXVQString@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QAbstractButton::setText(class QString const &)" (__imp_?setText@QAbstractButton@@QAEXABVQString@@@Z)，函数 "private: void __thiscall Widget::on_pushButton_start_udp_clicked(void)" (?on_pushButton_start_udp_clicked@Widget@@AAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __thiscall QAbstractButton::text(void)const " (__imp_?text@QAbstractButton@@QBE?AVQString@@XZ)，函数 "private: void __thiscall Widget::on_pushButton_start_udp_clicked(void)" (?on_pushButton_start_udp_clicked@Widget@@AAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QPushButton::QPushButton(class QWidget *)" (__imp_??0QPushButton@@QAE@PAVQWidget@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QPushButton::~QPushButton(void)" (__imp_??1QPushButton@@UAE@XZ)，函数 "public: virtual void * __thiscall QPushButton::`scalar deleting destructor'(unsigned int)" (??_GQPushButton@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QSpinBox::QSpinBox(class QWidget *)" (__imp_??0QSpinBox@@QAE@PAVQWidget@@@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QSpinBox::~QSpinBox(void)" (__imp_??1QSpinBox@@UAE@XZ)，函数 "public: virtual void * __thiscall QSpinBox::`scalar deleting destructor'(unsigned int)" (??_GQSpinBox@@UAEPAXI@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: int __thiscall QSpinBox::value(void)const " (__imp_?value@QSpinBox@@QBEHXZ)，函数 "public: void __thiscall Widget::InitConfig(void)" (?InitConfig@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QSpinBox::setMinimum(int)" (__imp_?setMinimum@QSpinBox@@QAEXH@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QSpinBox::setMaximum(int)" (__imp_?setMaximum@QSpinBox@@QAEXH@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QSpinBox::setDisplayIntegerBase(int)" (__imp_?setDisplayIntegerBase@QSpinBox@@QAEXH@Z)，函数 "public: void __thiscall Ui_Widget::setupUi(class QWidget *)" (?setupUi@Ui_Widget@@QAEXPAVQWidget@@@Z) 中引用了该符号
+widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QSpinBox::setValue(int)" (__imp_?setValue@QSpinBox@@QAEXH@Z)，函数 "public: void __thiscall Widget::Load_Config(void)" (?Load_Config@Widget@@QAEXXZ) 中引用了该符号
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::actionEvent(class QActionEvent *)" (?actionEvent@QWidget@@MAEXPAVQActionEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QBoxLayout::addItem(class QLayoutItem *)" (?addItem@QBoxLayout@@UAEXPAVQLayoutItem@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QPlainTextEdit::canInsertFromMimeData(class QMimeData const *)const " (?canInsertFromMimeData@QPlainTextEdit@@MBE_NPBVQMimeData@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractButton::changeEvent(class QEvent *)" (?changeEvent@QAbstractButton@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::changeEvent(class QEvent *)" (?changeEvent@QAbstractSpinBox@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::changeEvent(class QEvent *)" (?changeEvent@QComboBox@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QGroupBox::changeEvent(class QEvent *)" (?changeEvent@QGroupBox@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLabel::changeEvent(class QEvent *)" (?changeEvent@QLabel@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::changeEvent(class QEvent *)" (?changeEvent@QLineEdit@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::changeEvent(class QEvent *)" (?changeEvent@QPlainTextEdit@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::changeEvent(class QEvent *)" (?changeEvent@QWidget@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractButton::checkStateSet(void)" (?checkStateSet@QAbstractButton@@MAEXXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QGroupBox::childEvent(class QChildEvent *)" (?childEvent@QGroupBox@@MAEXPAVQChildEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLayout::childEvent(class QChildEvent *)" (?childEvent@QLayout@@MAEXPAVQChildEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QAbstractSpinBox::clear(void)" (?clear@QAbstractSpinBox@@UAEXXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::closeEvent(class QCloseEvent *)" (?closeEvent@QAbstractSpinBox@@MAEXPAVQCloseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::closeEvent(class QCloseEvent *)" (?closeEvent@QWidget@@MAEXPAVQCloseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QAbstractSpinBox@@MAEXPAVQContextMenuEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QComboBox@@MAEXPAVQContextMenuEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLabel::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QLabel@@MAEXPAVQContextMenuEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QLineEdit@@MAEXPAVQContextMenuEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QPlainTextEdit@@MAEXPAVQContextMenuEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QWidget@@MAEXPAVQContextMenuEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QFlags<enum QSizePolicy::ControlType> __thiscall QLayout::controlTypes(void)const " (?controlTypes@QLayout@@UBE?AV?$QFlags@W4ControlType@QSizePolicy@@@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QFlags<enum QSizePolicy::ControlType> __thiscall QLayoutItem::controlTypes(void)const " (?controlTypes@QLayoutItem@@UBE?AV?$QFlags@W4ControlType@QSizePolicy@@@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QBoxLayout::count(void)const " (?count@QBoxLayout@@UBEHXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QMimeData * __thiscall QPlainTextEdit::createMimeDataFromSelection(void)const " (?createMimeDataFromSelection@QPlainTextEdit@@MBEPAVQMimeData@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QWidget::devType(void)const " (?devType@QWidget@@UBEHXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::doSetTextCursor(class QTextCursor const &)" (?doSetTextCursor@QPlainTextEdit@@MAEXABVQTextCursor@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QLineEdit@@MAEXPAVQDragEnterEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QPlainTextEdit@@MAEXPAVQDragEnterEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QWidget@@MAEXPAVQDragEnterEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QLineEdit@@MAEXPAVQDragLeaveEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QPlainTextEdit@@MAEXPAVQDragLeaveEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QWidget@@MAEXPAVQDragLeaveEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QLineEdit@@MAEXPAVQDragMoveEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QPlainTextEdit@@MAEXPAVQDragMoveEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QWidget@@MAEXPAVQDragMoveEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::dropEvent(class QDropEvent *)" (?dropEvent@QLineEdit@@MAEXPAVQDropEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::dropEvent(class QDropEvent *)" (?dropEvent@QPlainTextEdit@@MAEXPAVQDropEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::dropEvent(class QDropEvent *)" (?dropEvent@QWidget@@MAEXPAVQDropEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::enterEvent(class QEvent *)" (?enterEvent@QWidget@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QComboBox::event(class QEvent *)" (?event@QComboBox@@UAE_NPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QGroupBox::event(class QEvent *)" (?event@QGroupBox@@MAE_NPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QLabel::event(class QEvent *)" (?event@QLabel@@MAE_NPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QLineEdit::event(class QEvent *)" (?event@QLineEdit@@UAE_NPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QPlainTextEdit::event(class QEvent *)" (?event@QPlainTextEdit@@MAE_NPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QPushButton::event(class QEvent *)" (?event@QPushButton@@MAE_NPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QSpinBox::event(class QEvent *)" (?event@QSpinBox@@MAE_NPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QWidget::event(class QEvent *)" (?event@QWidget@@MAE_NPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QAbstractScrollArea::eventFilter(class QObject *,class QEvent *)" (?eventFilter@QAbstractScrollArea@@MAE_NPAVQObject@@PAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QFlags<enum Qt::Orientation> __thiscall QBoxLayout::expandingDirections(void)const " (?expandingDirections@QBoxLayout@@UBE?AV?$QFlags@W4Orientation@Qt@@@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QFlags<enum Qt::Orientation> __thiscall QSpacerItem::expandingDirections(void)const " (?expandingDirections@QSpacerItem@@UBE?AV?$QFlags@W4Orientation@Qt@@@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QSpinBox::fixup(class QString &)const " (?fixup@QSpinBox@@MBEXAAVQString@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::focusInEvent(class QFocusEvent *)" (?focusInEvent@QAbstractSpinBox@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::focusInEvent(class QFocusEvent *)" (?focusInEvent@QComboBox@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QGroupBox::focusInEvent(class QFocusEvent *)" (?focusInEvent@QGroupBox@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLabel::focusInEvent(class QFocusEvent *)" (?focusInEvent@QLabel@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::focusInEvent(class QFocusEvent *)" (?focusInEvent@QLineEdit@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::focusInEvent(class QFocusEvent *)" (?focusInEvent@QPlainTextEdit@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPushButton::focusInEvent(class QFocusEvent *)" (?focusInEvent@QPushButton@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::focusInEvent(class QFocusEvent *)" (?focusInEvent@QWidget@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QLabel::focusNextPrevChild(bool)" (?focusNextPrevChild@QLabel@@MAE_N_N@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QPlainTextEdit::focusNextPrevChild(bool)" (?focusNextPrevChild@QPlainTextEdit@@MAE_N_N@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QWidget::focusNextPrevChild(bool)" (?focusNextPrevChild@QWidget@@MAE_N_N@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QAbstractSpinBox@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QComboBox@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLabel::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QLabel@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QLineEdit@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QPlainTextEdit@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPushButton::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QPushButton@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QWidget@@MAEXPAVQFocusEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QRect __thiscall QLayout::geometry(void)const " (?geometry@QLayout@@UBE?AVQRect@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QRect __thiscall QSpacerItem::geometry(void)const " (?geometry@QSpacerItem@@UBE?AVQRect@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QBoxLayout::hasHeightForWidth(void)const " (?hasHeightForWidth@QBoxLayout@@UBE_NXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QLayoutItem::hasHeightForWidth(void)const " (?hasHeightForWidth@QLayoutItem@@UBE_NXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QWidget::hasHeightForWidth(void)const " (?hasHeightForWidth@QWidget@@UBE_NXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QBoxLayout::heightForWidth(int)const " (?heightForWidth@QBoxLayout@@UBEHH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QLabel::heightForWidth(int)const " (?heightForWidth@QLabel@@UBEHH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QLayoutItem::heightForWidth(int)const " (?heightForWidth@QLayoutItem@@UBEHH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QWidget::heightForWidth(int)const " (?heightForWidth@QWidget@@UBEHH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::hideEvent(class QHideEvent *)" (?hideEvent@QAbstractSpinBox@@MAEXPAVQHideEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::hideEvent(class QHideEvent *)" (?hideEvent@QComboBox@@MAEXPAVQHideEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::hideEvent(class QHideEvent *)" (?hideEvent@QWidget@@MAEXPAVQHideEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QComboBox::hidePopup(void)" (?hidePopup@QComboBox@@UAEXXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QAbstractButton::hitButton(class QPoint const &)const " (?hitButton@QAbstractButton@@MBE_NABVQPoint@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QLayout::indexOf(class QWidget *)const " (?indexOf@QLayout@@UBEHPAVQWidget@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::initPainter(class QPainter *)const " (?initPainter@QWidget@@MBEXPAVQPainter@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QComboBox@@MAEXPAVQInputMethodEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QLineEdit@@MAEXPAVQInputMethodEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QPlainTextEdit@@MAEXPAVQInputMethodEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QWidget@@MAEXPAVQInputMethodEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __thiscall QAbstractSpinBox::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QAbstractSpinBox@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __thiscall QComboBox::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QComboBox@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __thiscall QLineEdit::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QLineEdit@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __thiscall QPlainTextEdit::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QPlainTextEdit@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __thiscall QWidget::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QWidget@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::insertFromMimeData(class QMimeData const *)" (?insertFromMimeData@QPlainTextEdit@@MAEXPBVQMimeData@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QBoxLayout::invalidate(void)" (?invalidate@QBoxLayout@@UAEXXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QLayoutItem::invalidate(void)" (?invalidate@QLayoutItem@@UAEXXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QLayout::isEmpty(void)const " (?isEmpty@QLayout@@UBE_NXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QSpacerItem::isEmpty(void)const " (?isEmpty@QSpacerItem@@UBE_NXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QLayoutItem * __thiscall QBoxLayout::itemAt(int)const " (?itemAt@QBoxLayout@@UBEPAVQLayoutItem@@H@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QAbstractSpinBox@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QComboBox@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLabel::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QLabel@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QLineEdit@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QPlainTextEdit@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPushButton::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QPushButton@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QWidget@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractButton::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QAbstractButton@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QAbstractSpinBox@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QComboBox@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QPlainTextEdit@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QWidget@@MAEXPAVQKeyEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QLayout * __thiscall QLayout::layout(void)" (?layout@QLayout@@UAEPAV1@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QLayout * __thiscall QLayoutItem::layout(void)" (?layout@QLayoutItem@@UAEPAVQLayout@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::leaveEvent(class QEvent *)" (?leaveEvent@QWidget@@MAEXPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __thiscall QPlainTextEdit::loadResource(int,class QUrl const &)" (?loadResource@QPlainTextEdit@@UAE?AVQVariant@@HABVQUrl@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QBoxLayout::maximumSize(void)const " (?maximumSize@QBoxLayout@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QSpacerItem::maximumSize(void)const " (?maximumSize@QSpacerItem@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QComboBox::metaObject(void)const " (?metaObject@QComboBox@@UBEPBUQMetaObject@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QGroupBox::metaObject(void)const " (?metaObject@QGroupBox@@UBEPBUQMetaObject@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QHBoxLayout::metaObject(void)const " (?metaObject@QHBoxLayout@@UBEPBUQMetaObject@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QLabel::metaObject(void)const " (?metaObject@QLabel@@UBEPBUQMetaObject@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QLineEdit::metaObject(void)const " (?metaObject@QLineEdit@@UBEPBUQMetaObject@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QPlainTextEdit::metaObject(void)const " (?metaObject@QPlainTextEdit@@UBEPBUQMetaObject@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QPushButton::metaObject(void)const " (?metaObject@QPushButton@@UBEPBUQMetaObject@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QSpinBox::metaObject(void)const " (?metaObject@QSpinBox@@UBEPBUQMetaObject@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QVBoxLayout::metaObject(void)const " (?metaObject@QVBoxLayout@@UBEPBUQMetaObject@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall QWidget::metric(enum QPaintDevice::PaintDeviceMetric)const " (?metric@QWidget@@MBEHW4PaintDeviceMetric@QPaintDevice@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QBoxLayout::minimumHeightForWidth(int)const " (?minimumHeightForWidth@QBoxLayout@@UBEHH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QLayoutItem::minimumHeightForWidth(int)const " (?minimumHeightForWidth@QLayoutItem@@UBEHH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QBoxLayout::minimumSize(void)const " (?minimumSize@QBoxLayout@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QSpacerItem::minimumSize(void)const " (?minimumSize@QSpacerItem@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QAbstractScrollArea::minimumSizeHint(void)const " (?minimumSizeHint@QAbstractScrollArea@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QAbstractSpinBox::minimumSizeHint(void)const " (?minimumSizeHint@QAbstractSpinBox@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QComboBox::minimumSizeHint(void)const " (?minimumSizeHint@QComboBox@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QGroupBox::minimumSizeHint(void)const " (?minimumSizeHint@QGroupBox@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QLabel::minimumSizeHint(void)const " (?minimumSizeHint@QLabel@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QLineEdit::minimumSizeHint(void)const " (?minimumSizeHint@QLineEdit@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QPushButton::minimumSizeHint(void)const " (?minimumSizeHint@QPushButton@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QWidget::minimumSizeHint(void)const " (?minimumSizeHint@QWidget@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QPlainTextEdit@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractButton::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QAbstractButton@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QAbstractSpinBox@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QGroupBox::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QGroupBox@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLabel::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QLabel@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QPlainTextEdit@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractButton::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QAbstractButton@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QAbstractSpinBox@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QComboBox@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QGroupBox::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QGroupBox@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLabel::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QLabel@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QPlainTextEdit@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractButton::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QAbstractButton@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QAbstractSpinBox@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QComboBox@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QGroupBox::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QGroupBox@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLabel::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QLabel@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QPlainTextEdit@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QWidget@@MAEXPAVQMouseEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::moveEvent(class QMoveEvent *)" (?moveEvent@QWidget@@MAEXPAVQMoveEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QWidget::nativeEvent(class QByteArray const &,void *,long *)" (?nativeEvent@QWidget@@MAE_NABVQByteArray@@PAXPAJ@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractButton::nextCheckState(void)" (?nextCheckState@QAbstractButton@@MAEXXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QPaintEngine * __thiscall QWidget::paintEngine(void)const " (?paintEngine@QWidget@@UBEPAVQPaintEngine@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::paintEvent(class QPaintEvent *)" (?paintEvent@QAbstractSpinBox@@MAEXPAVQPaintEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::paintEvent(class QPaintEvent *)" (?paintEvent@QComboBox@@MAEXPAVQPaintEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QGroupBox::paintEvent(class QPaintEvent *)" (?paintEvent@QGroupBox@@MAEXPAVQPaintEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLabel::paintEvent(class QPaintEvent *)" (?paintEvent@QLabel@@MAEXPAVQPaintEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QLineEdit::paintEvent(class QPaintEvent *)" (?paintEvent@QLineEdit@@MAEXPAVQPaintEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::paintEvent(class QPaintEvent *)" (?paintEvent@QPlainTextEdit@@MAEXPAVQPaintEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPushButton::paintEvent(class QPaintEvent *)" (?paintEvent@QPushButton@@MAEXPAVQPaintEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::paintEvent(class QPaintEvent *)" (?paintEvent@QWidget@@MAEXPAVQPaintEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QComboBox::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QComboBox@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QGroupBox::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QGroupBox@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QHBoxLayout::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QHBoxLayout@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QLabel::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QLabel@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QLineEdit::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QLineEdit@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QPlainTextEdit::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QPlainTextEdit@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QPushButton::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QPushButton@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QSpinBox::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QSpinBox@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QVBoxLayout::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QVBoxLayout@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QComboBox::qt_metacast(char const *)" (?qt_metacast@QComboBox@@UAEPAXPBD@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QGroupBox::qt_metacast(char const *)" (?qt_metacast@QGroupBox@@UAEPAXPBD@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QHBoxLayout::qt_metacast(char const *)" (?qt_metacast@QHBoxLayout@@UAEPAXPBD@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QLabel::qt_metacast(char const *)" (?qt_metacast@QLabel@@UAEPAXPBD@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QLineEdit::qt_metacast(char const *)" (?qt_metacast@QLineEdit@@UAEPAXPBD@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QPlainTextEdit::qt_metacast(char const *)" (?qt_metacast@QPlainTextEdit@@UAEPAXPBD@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QPushButton::qt_metacast(char const *)" (?qt_metacast@QPushButton@@UAEPAXPBD@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QSpinBox::qt_metacast(char const *)" (?qt_metacast@QSpinBox@@UAEPAXPBD@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QVBoxLayout::qt_metacast(char const *)" (?qt_metacast@QVBoxLayout@@UAEPAXPBD@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QPaintDevice * __thiscall QWidget::redirected(class QPoint *)const " (?redirected@QWidget@@MBEPAVQPaintDevice@@PAVQPoint@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::resizeEvent(class QResizeEvent *)" (?resizeEvent@QAbstractSpinBox@@MAEXPAVQResizeEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::resizeEvent(class QResizeEvent *)" (?resizeEvent@QComboBox@@MAEXPAVQResizeEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QGroupBox::resizeEvent(class QResizeEvent *)" (?resizeEvent@QGroupBox@@MAEXPAVQResizeEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::resizeEvent(class QResizeEvent *)" (?resizeEvent@QPlainTextEdit@@MAEXPAVQResizeEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::resizeEvent(class QResizeEvent *)" (?resizeEvent@QWidget@@MAEXPAVQResizeEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::scrollContentsBy(int,int)" (?scrollContentsBy@QPlainTextEdit@@MAEXHH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QBoxLayout::setGeometry(class QRect const &)" (?setGeometry@QBoxLayout@@UAEXABVQRect@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QSpacerItem::setGeometry(class QRect const &)" (?setGeometry@QSpacerItem@@UAEXABVQRect@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QWidget::setVisible(bool)" (?setVisible@QWidget@@UAEX_N@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QAbstractScrollArea::setupViewport(class QWidget *)" (?setupViewport@QAbstractScrollArea@@UAEXPAVQWidget@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QPainter * __thiscall QWidget::sharedPainter(void)const " (?sharedPainter@QWidget@@MBEPAVQPainter@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::showEvent(class QShowEvent *)" (?showEvent@QAbstractSpinBox@@MAEXPAVQShowEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::showEvent(class QShowEvent *)" (?showEvent@QComboBox@@MAEXPAVQShowEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::showEvent(class QShowEvent *)" (?showEvent@QPlainTextEdit@@MAEXPAVQShowEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::showEvent(class QShowEvent *)" (?showEvent@QWidget@@MAEXPAVQShowEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QComboBox::showPopup(void)" (?showPopup@QComboBox@@UAEXXZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QAbstractScrollArea::sizeHint(void)const " (?sizeHint@QAbstractScrollArea@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QAbstractSpinBox::sizeHint(void)const " (?sizeHint@QAbstractSpinBox@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QBoxLayout::sizeHint(void)const " (?sizeHint@QBoxLayout@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QComboBox::sizeHint(void)const " (?sizeHint@QComboBox@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QLabel::sizeHint(void)const " (?sizeHint@QLabel@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QLineEdit::sizeHint(void)const " (?sizeHint@QLineEdit@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QPushButton::sizeHint(void)const " (?sizeHint@QPushButton@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QSpacerItem::sizeHint(void)const " (?sizeHint@QSpacerItem@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QWidget::sizeHint(void)const " (?sizeHint@QWidget@@UBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSpacerItem * __thiscall QLayoutItem::spacerItem(void)" (?spacerItem@QLayoutItem@@UAEPAVQSpacerItem@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSpacerItem * __thiscall QSpacerItem::spacerItem(void)" (?spacerItem@QSpacerItem@@UAEPAV1@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QAbstractSpinBox::stepBy(int)" (?stepBy@QAbstractSpinBox@@UAEXH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QFlags<enum QAbstractSpinBox::StepEnabledFlag> __thiscall QAbstractSpinBox::stepEnabled(void)const " (?stepEnabled@QAbstractSpinBox@@MBE?AV?$QFlags@W4StepEnabledFlag@QAbstractSpinBox@@@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::tabletEvent(class QTabletEvent *)" (?tabletEvent@QWidget@@MAEXPAVQTabletEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QLayoutItem * __thiscall QBoxLayout::takeAt(int)" (?takeAt@QBoxLayout@@UAEPAVQLayoutItem@@H@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QString __thiscall QSpinBox::textFromValue(int)const " (?textFromValue@QSpinBox@@MBE?AVQString@@H@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractButton::timerEvent(class QTimerEvent *)" (?timerEvent@QAbstractButton@@MAEXPAVQTimerEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::timerEvent(class QTimerEvent *)" (?timerEvent@QAbstractSpinBox@@MAEXPAVQTimerEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::timerEvent(class QTimerEvent *)" (?timerEvent@QPlainTextEdit@@MAEXPAVQTimerEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual enum QValidator::State __thiscall QSpinBox::validate(class QString &,int &)const " (?validate@QSpinBox@@MBE?AW4State@QValidator@@AAVQString@@AAH@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __thiscall QSpinBox::valueFromText(class QString const &)const " (?valueFromText@QSpinBox@@MBEHABVQString@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QAbstractScrollArea::viewportEvent(class QEvent *)" (?viewportEvent@QAbstractScrollArea@@MAE_NPAVQEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QSize __thiscall QAbstractScrollArea::viewportSizeHint(void)const " (?viewportSizeHint@QAbstractScrollArea@@MBE?AVQSize@@XZ)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QAbstractSpinBox::wheelEvent(class QWheelEvent *)" (?wheelEvent@QAbstractSpinBox@@MAEXPAVQWheelEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QComboBox::wheelEvent(class QWheelEvent *)" (?wheelEvent@QComboBox@@MAEXPAVQWheelEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QPlainTextEdit::wheelEvent(class QWheelEvent *)" (?wheelEvent@QPlainTextEdit@@MAEXPAVQWheelEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWidget::wheelEvent(class QWheelEvent *)" (?wheelEvent@QWidget@@MAEXPAVQWheelEvent@@@Z)
+widget.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QWidget * __thiscall QLayoutItem::widget(void)" (?widget@QLayoutItem@@UAEPAVQWidget@@XZ)
+qrc_resource.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl qRegisterResourceData(int,unsigned char const *,unsigned char const *,unsigned char const *)" (?qRegisterResourceData@@YA_NHPBE00@Z)，函数 "int __cdecl qInitResources_resource(void)" (?qInitResources_resource@@YAHXZ) 中引用了该符号
+qrc_resource.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl qUnregisterResourceData(int,unsigned char const *,unsigned char const *,unsigned char const *)" (?qUnregisterResourceData@@YA_NHPBE00@Z)，函数 "int __cdecl qCleanupResources_resource(void)" (?qCleanupResources_resource@@YAHXZ) 中引用了该符号
+qrc_resource.obj : error LNK2019: 无法解析的外部符号 "unsigned char __cdecl qResourceFeatureZlib(void)" (?qResourceFeatureZlib@@YAEXZ)，函数 "int __cdecl qCleanupResources_resource(void)" (?qCleanupResources_resource@@YAHXZ) 中引用了该符号
+moc_udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static void __cdecl QMetaObject::activate(class QObject *,struct QMetaObject const *,int,void * *)" (__imp_?activate@QMetaObject@@SAXPAVQObject@@PBU1@HPAPAX@Z)，函数 "public: void __thiscall UDP_FILE_RECV_THREAD::LogSend(class QString)" (?LogSend@UDP_FILE_RECV_THREAD@@QAEXVQString@@@Z) 中引用了该符号
+moc_widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: static void __cdecl QMetaObject::activate(class QObject *,struct QMetaObject const *,int,void * *)" (__imp_?activate@QMetaObject@@SAXPAVQObject@@PBU1@HPAPAX@Z)
+moc_udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: struct QMetaObject * __thiscall QObjectData::dynamicMetaObject(void)const " (__imp_?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ)，函数 "public: virtual struct QMetaObject const * __thiscall UDP_FILE_RECV_THREAD::metaObject(void)const " (?metaObject@UDP_FILE_RECV_THREAD@@UBEPBUQMetaObject@@XZ) 中引用了该符号
+moc_widget.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: struct QMetaObject * __thiscall QObjectData::dynamicMetaObject(void)const " (__imp_?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ)
+moc_udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual void * __thiscall QObject::qt_metacast(char const *)" (__imp_?qt_metacast@QObject@@UAEPAXPBD@Z)，函数 "public: virtual void * __thiscall UDP_FILE_RECV_THREAD::qt_metacast(char const *)" (?qt_metacast@UDP_FILE_RECV_THREAD@@UAEPAXPBD@Z) 中引用了该符号
+moc_udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual int __thiscall QObject::qt_metacall(enum QMetaObject::Call,int,void * *)" (__imp_?qt_metacall@QObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z)，函数 "public: virtual int __thiscall UDP_FILE_RECV_THREAD::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@UDP_FILE_RECV_THREAD@@UAEHW4Call@QMetaObject@@HPAPAX@Z) 中引用了该符号
+moc_udp_file_recv.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static struct QMetaObject const QObject::staticMetaObject" (__imp_?staticMetaObject@QObject@@2UQMetaObject@@B)，函数 "public: static struct QMetaObject const * __cdecl QMetaObject::staticMetaObject<&public: static struct QMetaObject const QObject::staticMetaObject>(void)" (??$staticMetaObject@$1?staticMetaObject@QObject@@2UQMetaObject@@B@QMetaObject@@SAPBU0@XZ) 中引用了该符号
+moc_widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual void * __thiscall QWidget::qt_metacast(char const *)" (__imp_?qt_metacast@QWidget@@UAEPAXPBD@Z)，函数 "public: virtual void * __thiscall Widget::qt_metacast(char const *)" (?qt_metacast@Widget@@UAEPAXPBD@Z) 中引用了该符号
+moc_widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual int __thiscall QWidget::qt_metacall(enum QMetaObject::Call,int,void * *)" (__imp_?qt_metacall@QWidget@@UAEHW4Call@QMetaObject@@HPAPAX@Z)，函数 "public: virtual int __thiscall Widget::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@Widget@@UAEHW4Call@QMetaObject@@HPAPAX@Z) 中引用了该符号
+moc_widget.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static struct QMetaObject const QWidget::staticMetaObject" (__imp_?staticMetaObject@QWidget@@2UQMetaObject@@B)，函数 "public: static struct QMetaObject const * __cdecl QMetaObject::staticMetaObject<&public: static struct QMetaObject const QWidget::staticMetaObject>(void)" (??$staticMetaObject@$1?staticMetaObject@QWidget@@2UQMetaObject@@B@QMetaObject@@SAPBU0@XZ) 中引用了该符号
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 _WinMain@16，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Guid.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Networkd.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Cored.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\qtmaind.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+debug\\UDP_Server.exe : fatal error LNK1120: 472 个无法解析的外部命令
